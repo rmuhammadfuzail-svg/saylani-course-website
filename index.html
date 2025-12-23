@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,9 +10,102 @@
       href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .second-section {
+        padding: 80px 120px;
+      }
+
+      .heading {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .heading h1 {
+        font-size: 48px;
+        color: rgb(61, 61, 61);
+        font-weight: 200;
+      }
+
+      .heading p {
+        font-size: 20px;
+        font-weight: 200;
+        color: rgb(61, 61, 61);
+        width: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="topper">
+          <div class="left-side">
+            <div class="flex">
+              <img src="./icons/icon-1.png" alt="" />
+              <p>info@company.com</p>
+            </div>
+            <div class="flex">
+              <img src="./icons/Screenshot 2025-12-23 163836.png" alt="" />
+              <p> 010-020-0340</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <ul class="flex">
+                <li><a href="#"><img src="./icons/icon-3.png" alt=""></a></li>
+                <li><a href="#"><img src="./icons/icon-4.png" alt=""></a></li>
+                <li><a href="#"><img src="./icons/icon-5.png" alt=""></a></li>
+                <li><a href="#"><img src="./icons/icon-6.png" alt=""></a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="logo">
+            <h1>Zay</h1>
+        </div>
+        <div class="nav">
+            <ul class="flex">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="buttons flex">
+            <img src="./icons/icon-7-van.png" alt="">
+            <img src="./icons/icon-8-nav.png" alt="">
+            <img src="./icons/icon-9-nav.png" alt="">
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="frist-section flex">
+            <div class="frist-sec-content">
+                <h1><span>Zay</span> eCommerce</h1>
+                <h2>Tiny and Perfect eCommerce Template</h2>
+                <p>Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). This template is 100% free provided by <span>TemplateMo</span> website. Image credits go to <span>Freepik Stories, Unsplash</span> and <span>Icons 8</span>.</p>
+            </div>
+            <div class="frist-sec-img">
+                <img src="./images/images.jpeg" alt="">
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="heading">
+                <h1>Categories of The Month</h1>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="./icons/img-1.png" alt="">
+                    <h1>Watches</h1>
+                    <button>Go Shop</button>
+                </div>
+            </div>
+        </div>
+    </main>
+  </body>
 </html>

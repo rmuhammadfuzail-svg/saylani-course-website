@@ -12,3 +12,129 @@ a {
 li {
   list-style: none;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --bg-1: #212934;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.topper {
+  background-color: var(--bg-1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-side p {
+  color: white;
+  font-size: 12px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px;
+}
+
+.logo h1 {
+  color: #59ab6e;
+  font-size: 48px;
+}
+
+.nav ul {
+  gap: 100px;
+}
+
+.nav ul li a {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.frist-sec-content {
+  width: 45%;
+}
+.frist-sec-img {
+  width: 40%;
+}
+
+.frist-sec-img img {
+  width: 100%;
+  background-color: none;
+}
+
+.frist-section {
+  background: #e9eef5;
+  padding: 70px 120px;
+  gap: 50px;
+  /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+}
+
+.frist-sec-content h1 {
+  font-size: 48px;
+  color: #59ab6e;
+  font-weight: 200;
+}
+
+.frist-sec-content > h1 span {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.frist-sec-content h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.frist-sec-content p {
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(77, 77, 77);
+  margin-top: 20px;
+}
+
+.frist-sec-content p span {
+  color: #59ab6e;
+  text-decoration: underline;
+}
