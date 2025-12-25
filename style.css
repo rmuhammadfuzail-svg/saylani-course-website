@@ -138,3 +138,200 @@ ul {
 /* .section-1 {
         height: 90vh;
       } */
+.heading-sec {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.heading-sec h1 {
+  font-size: 48px;
+  font-weight: 200;
+}
+.heading-sec p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.card {
+  /* width: 30%; */
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.section-3 {
+  background-color: #e9eef5;
+}
+
+.section-3-header {
+  text-align: center;
+  width: 60%;
+}
+
+.section-3-header h1 {
+  font-size: 48px;
+  font-weight: 200;
+}
+
+.section-3-header p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.card-sec {
+  width: 32%;
+}
+
+.section-3-content {
+  background-color: white;
+}
+
+.card-sec > .img > img {
+  width: 100%;
+}
+
+.rate {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(151, 150, 150);
+}
+
+.star-icon i {
+  font-size: 20px;
+}
+
+.yellow {
+  color: rgb(250, 250, 136);
+}
+
+.gray {
+  color: rgb(170, 169, 169);
+}
+
+.contant h3 {
+  font-size: 30px;
+  font-weight: 350;
+  margin-bottom: 3px;
+}
+
+.contant p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.footer-top {
+  background-color: #212934;
+}
+
+.details-child {
+  width: 32%;
+}
+
+.details-child h2 {
+  font-size: 30px;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  padding-bottom: 25px;
+}
+
+.green {
+  color: var(--green-color);
+  font-weight: 600;
+}
+
+.details-child i {
+  color: rgb(240, 238, 238);
+  font-size: 20px;
+  padding: 0px 10px 0px 0px;
+}
+
+.details-child a {
+  font-size: 20px;
+  color: rgb(240, 238, 238);
+  font-weight: 200;
+}
+
+.details-child a:hover {
+  color: var(--green-color);
+}
+
+.white {
+  color: rgb(240, 238, 238);
+  font-weight: 200;
+}
+
+.follow {
+  border-top: 1px solid rgb(73, 73, 73);
+}
+
+.follow-icon {
+  border-radius: 50%;
+  border: 1px solid rgb(73, 73, 73);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+
+.follow-icon:hover {
+  background-color: rgb(240, 238, 238);
+  color: #212934;
+}
+
+.follow-icon i {
+  font-size: 20px;
+  color: rgb(240, 238, 238);
+}
+
+.follow-icon i:hover {
+  color: #212934;
+}
+
+.follow-singup input {
+  padding: 5px 10px;
+  background-color: #212934;
+  color: rgb(240, 238, 238);
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 5px 0px 0px 5px;
+  width: 225px;
+  height: 42px;
+}
+
+.follow-singup button {
+  background-color: #59ab6e;
+  height: 42px;
+  padding: 5px 10px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #59ab6e;
+  color: rgb(240, 238, 238);
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.footer-bottom {
+  background-color: #1d242d;
+}
+
+.footer-bottom p {
+  color: rgb(240, 238, 238);
+  font-size: 19px;
+  font-weight: 200;
+  padding: 10px 0px 0px 10px;
+}
+
+.footer-bottom a {
+  color: rgb(240, 238, 238);
+  text-decoration: underline;
+}
+
+.footer-bottom a:hover {
+  color: var(--green-color);
+}
