@@ -10,102 +10,237 @@
       href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <style>
-      .second-section {
-        padding: 80px 120px;
-      }
-
-      .heading {
-        width: 100%;
+      .heading-sec {
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
       }
 
-      .heading h1 {
+      .heading-sec h1 {
         font-size: 48px;
-        color: rgb(61, 61, 61);
         font-weight: 200;
       }
-
-      .heading p {
+      .heading-sec p {
         font-size: 20px;
         font-weight: 200;
-        color: rgb(61, 61, 61);
-        width: 50%;
-        text-align: center;
+      }
+
+      .card {
+        /* width: 30%; */
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .card h3 {
+        font-size: 20px;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="topper">
-          <div class="left-side">
-            <div class="flex">
-              <img src="./icons/icon-1.png" alt="" />
-              <p>info@company.com</p>
-            </div>
-            <div class="flex">
-              <img src="./icons/Screenshot 2025-12-23 163836.png" alt="" />
-              <p> 010-020-0340</p>
-            </div>
+      <div class="topper pt-2 pb-2">
+        <div class="container d-flex justify-content-between">
+          <div class="topper-left">
+            <a href="#"
+              ><i class="fa-solid fa-envelope"></i> info@company.com</a
+            >
+            <a href="#"><i class="fa-solid fa-phone"></i> 010-020-0340</a>
           </div>
-          <div class="right-side">
-            <ul class="flex">
-                <li><a href="#"><img src="./icons/icon-3.png" alt=""></a></li>
-                <li><a href="#"><img src="./icons/icon-4.png" alt=""></a></li>
-                <li><a href="#"><img src="./icons/icon-5.png" alt=""></a></li>
-                <li><a href="#"><img src="./icons/icon-6.png" alt=""></a></li>
-            </ul>
+          <div class="topper-right">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
         </div>
       </div>
-      <div class="navbar">
-        <div class="logo">
-            <h1>Zay</h1>
-        </div>
-        <div class="nav">
-            <ul class="flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-        <div class="buttons flex">
-            <img src="./icons/icon-7-van.png" alt="">
-            <img src="./icons/icon-8-nav.png" alt="">
-            <img src="./icons/icon-9-nav.png" alt="">
-        </div>
+      <div class="nav-section">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container d-flex justify-content-between">
+            <div class="logo">
+              <h1>Zay</h1>
+            </div>
+            <div class="nav">
+              <ul class="d-flex column-gap-5">
+                <li><a class="nav-hover" href="">Home</a></li>
+                <li><a class="nav-hover" href="">About</a></li>
+                <li><a class="nav-hover" href="">Shop</a></li>
+                <li><a class="nav-hover" href="">Contact</a></li>
+              </ul>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
-        <div class="frist-section flex">
-            <div class="frist-sec-content">
-                <h1><span>Zay</span> eCommerce</h1>
-                <h2>Tiny and Perfect eCommerce Template</h2>
-                <p>Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). This template is 100% free provided by <span>TemplateMo</span> website. Image credits go to <span>Freepik Stories, Unsplash</span> and <span>Icons 8</span>.</p>
+      <div class="section-1">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active bg-green"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              class="bg-green"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              class="bg-green"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active bg-gray px-5 py-5 height-90"
+              data-bs-interval="10000"
+            >
+              <div class="container pt-5 d-flex justify-content-between column-gap-4 align-items-center px-5">
+                <div class="slider-content">
+                  <h1 class="frist-slider-heading"><span>Zay</span> eCommerce</h1>
+                  <h2>Tiny and Perfect eCommerce Template</h2>
+                  <p class="frist-slider-text">
+                    Zay Shop is an eCommerce HTML5 CSS template with latest
+                    version of Bootstrap 5 (beta 1). This template is 100% free
+                    provided by <a href="#">TemplateMo</a> website. Image credits
+                    go to <a href="#">Freepik Stories, Unsplash</a> and
+                    <a href="#">Icons 8.</a>
+                  </p>
+                </div>
+                <div class="slider-img">
+                    <img
+                  src="./images/shoes-screenshort.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                </div>
+              </div>
             </div>
-            <div class="frist-sec-img">
-                <img src="./images/images.jpeg" alt="">
+            <div
+              class="carousel-item bg-gray px-5 py-5 height-90"
+              data-bs-interval="2000"
+            >
+              <div class="container d-flex justify-content-between column-gap-4 align-items-center px-5">
+                <div class="slider-content">
+                  <h1>Proident occaecat</h1>
+                  <h2>Aliquip ex ea commodo consequat</h2>
+                  <p>
+                    You are permitted to use this Zay CSS template for your commercial websites. You are not permitted to re-distribute the template ZIP file in any kind of template collection websites.
+                  </p>
+                </div>
+                <div class="slider-img">
+                    <img
+                  src="./images/bottle-screenshort.png"
+                  class="d-block w-100 sliders-img"
+                  alt="..."
+                />
+                </div>
+              </div>
             </div>
+            <div class="carousel-item bg-gray px-5 py-5 height-90">
+              <div class="container d-flex justify-content-between column-gap-4 px-5 align-items-center">
+                <div class="slider-content">
+                  <h1>Repr in voluptate</h1>
+                  <h2>Ullamco laboris nisi ut</h2>
+                  <p>
+                    We bring you 100% free CSS templates for your websites. If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                  </p>
+                </div>
+                <div class="slider-img">
+                    <img
+                  src="./images/lamp-screenshort.png"
+                  class="d-block w-100 sliders-img"
+                  alt="..."
+                />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon bg-green" aria-hidden="true"></span>
+            <span class="visually-hidden bg-green">Next</span>
+          </button>
         </div>
-        <div class="second-section">
-            <div class="heading">
+      </div>
+      <div class="section-2">
+        <div class="container d-flex row-gap-5 flex-column py-4 my-5">
+            <div class="heading-sec container">
                 <h1>Categories of The Month</h1>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="cards">
+            <div class="cards d-flex justify-content-between align-items-center px-4">
                 <div class="card">
-                    <img src="./icons/img-1.png" alt="">
-                    <h1>Watches</h1>
-                    <button>Go Shop</button>
+                    <img src="./images/watch.png" alt="">
+                    <h3>Watches</h3>
+                    <button type="button" class="btn btn-success">Go Shop</button>
+                </div>
+                <div class="card">
+                    <img src="./images/shoes-card.png" alt="">
+                    <h3>Shoes</h3>
+                    <button type="button" class="btn btn-success">Go Shop</button>
+                </div>
+                <div class="card">
+                    <img src="./images/glasses.png" alt="">
+                    <h3>Accessories</h3>
+                    <button type="button" class="btn btn-success">Go Shop</button>
                 </div>
             </div>
         </div>
+      </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
