@@ -21,6 +21,25 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .contact-section-1 {
+        background-color: #e9eef5;
+      }
+
+      .contact-section-1 p {
+        font-size: 20px;
+        font-weight: 200;
+      }
+
+      .form-control {
+        border: 1px solid #e8e8e8;
+      }
+
+      .contact-section-3 label {
+        font-size: 20px;
+        font-weight: 200;
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -63,6 +82,50 @@
         </nav>
       </div>
     </header>
+    <main>
+      <div class="contact-section-1">
+        <div class="container py-5">
+          <div class="col-md-6 m-auto text-center">
+            <h1 class="h-1">Contact Us</h1>
+            <p>Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-section-2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4476440382496!2d67.06541867443046!3d24.882708044368737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eebb56aaaab%3A0x27ab04809ef5020a!2sSaylani%20Welfare%20International%20Trust%20Head%20Office.!5e0!3m2!1sen!2s!4v1766750116494!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-section-3">
+        <div class="container py-5">
+          <div class="row py-5">
+            <form action="" method="post" class="col-md-9 m-auto">
+              <div class="row">
+                <div class="col-md-6 mb-3 form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="col-md-6 mb-3 form-group">
+                  <label for="inputName">Email</label>
+                  <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="inputSubject">Subject</label>
+                <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <label for="inputmessage">Message</label>
+                <textarea name="message" id="message" class="form-control mt-1" placeholder="Message" rows="8"></textarea>
+              </div>
+              <div class="row">
+                <div class="col text-end mt-2">
+                  <button type="submit" class="btn btn-success btn-lg px-3">Let's Talk</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="footer-top py-5">
         <div class="container d-flex flex-column">
